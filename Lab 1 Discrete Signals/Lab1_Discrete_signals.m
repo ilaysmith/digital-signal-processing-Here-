@@ -96,7 +96,7 @@ figure;
 hold on;
 
 plot(t_restored,Vector_values,'r-'); % восстановленный сигнал аналоговый
-stem(t,kx,'b-');             % дискретный сигнал исходный из пункта 1 
+stem(t,kx,'b--');             % дискретный сигнал исходный из пункта 1 
 
 title('The original and restored signals');
 xlabel('t, ms');
